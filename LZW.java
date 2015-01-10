@@ -1,5 +1,6 @@
 import java.util.*;
-//test changes 
+//test changes
+
 public class LZW {
     /** Compress a string to a list of output symbols. */
     public static List<Integer> compress(String uncompressed) {
@@ -11,7 +12,7 @@ public class LZW {
         	dictionary.put("" + (char)i, i);
         }
             
- 
+//test change 2 
         String w = "";
         List<Integer> result = new ArrayList<Integer>();
         Integer i=0;
