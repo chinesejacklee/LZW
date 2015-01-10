@@ -1,6 +1,6 @@
 import java.util.*;
 //test changes
-
+//test changes 3
 public class LZW {
     /** Compress a string to a list of output symbols. */
     public static List<Integer> compress(String uncompressed) {
